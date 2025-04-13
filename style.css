@@ -1,0 +1,30 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0faff;
+    margin: 0;
+    padding: 0;
+}
+.katee-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #89c9ff;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 170, 255, 0.3);
+    cursor: pointer;
+    font-weight: bold;
+}
+.katee-box {
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    background: white;
+    border: 2px solid #cce9ff;
+    padding: 16px;
+    border-radius: 12px;
+    max-width: 250px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
